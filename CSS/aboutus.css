@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+  color: white;
+}
+
+ul li.active > a {
+  color: #ffe598;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.about-img img {
+  width: 50%;
+  border-radius: 50%;
+  height: 50%;
+}
+.about-img img:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.about-img {
+  margin-left: 9rem;
+}
+.about-info {
+  width: 90%;
+}
+.about-info h2 {
+  color: #ffe598;
+  margin-top: 5.5rem;
+
+  font: 28px sans-serif;
+  width: 89%;
+}
+.about-info p {
+  letter-spacing: 1.4px;
+  line-height: 1.6;
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(227, 211, 198) !important;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+section h3 {
+  color: #ffe598;
+  font-size: 1.6rem;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+  img {
+    margin-top: 4rem;
+  }
+  section h3 {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .about-info h2 {
+    font-size: 1.3rem;
+    margin-left: 1.3rem;
+  }
+}
+@media (max-width: 500px) {
+  .container .about-info p {
+    width: 100%;
+    margin-left: 1rem;
+  }
+}
+
+.about-info h2 {
+  animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+}
+
+@keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+    transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+section {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+section h3 {
+  animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
