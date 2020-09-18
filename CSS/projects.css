@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background: #242323;
+  background: black;
   font-family: "Montserrat", sans-serif;
 }
 .project img {
@@ -81,7 +81,8 @@ hr {
   .project-container {
     margin-top: 4rem;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 2rem;
+    margin-left: 3rem;
+    width: 100%;
     row-gap: 8rem;
     margin-bottom: 1rem;
   }

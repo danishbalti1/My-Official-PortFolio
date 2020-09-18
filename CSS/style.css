@@ -162,7 +162,7 @@ section p {
     left: 0;
     z-index: 1;
     background: #010101;
-    width: 70%;
+    width: 50%;
     height: 100%;
     transform: translateX(-500px);
     border-right: #ccc 1px solid;
@@ -258,6 +258,7 @@ img {
     margin-bottom: 20px;
   }
 }
+
 .main-heading {
   animation: scale-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
