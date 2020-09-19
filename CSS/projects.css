@@ -88,7 +88,11 @@ hr {
     margin-bottom: 1rem;
   }
   .project img {
-    border-right: 144.2px solid whitesmoke;
+    border-right: 126.2px solid whitesmoke;
+  }
+
+  .project-heading h1 {
+    margin-left: 5rem;
   }
   .details {
     width: 150%;
