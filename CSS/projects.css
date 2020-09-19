@@ -11,6 +11,7 @@ body {
   width: 120%;
   height: 120%;
   border: 1px solid whitesmoke;
+  border-right: 80px solid whitesmoke;
   border-bottom: none;
   transition: 0.4s ease-in;
   border-radius: 5px 5px 3px 3px;
