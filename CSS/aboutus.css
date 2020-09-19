@@ -55,7 +55,7 @@ section h3 {
   .container {
     flex-direction: column;
   }
-  img {
+  .about-img img {
     margin-top: 4rem;
   }
   section h3 {

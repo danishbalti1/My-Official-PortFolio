@@ -32,64 +32,151 @@ hr {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 45%);
-  row-gap: 0.9rem;
-  margin-right: 13rem;
+  row-gap: 1.3rem;
+  column-gap: 1rem;
+  margin-right: 17rem;
   margin-bottom: 8rem;
 }
-.container .lang .html {
-  padding: 0.1px 130px;
-  background: #ffe598;
-  border-radius: 5px;
-  width: 86%;
+.html {
+  position: relative;
+  padding: 12px 130px;
+  background: #333;
+  border-radius: 2px;
+  width: 100%;
 }
 
 .container .lang .css {
-  padding: 0.1px 120px;
-  border-radius: 5px;
-  background: #ffe598;
-  width: 76%;
+  position: relative;
+  padding: 12px 130px;
+  background: #333;
+  border-radius: 2px;
+  width: 100%;
 }
 .container .lang .js {
-  padding: 0.1px 110px;
-  border-radius: 5px;
-  background: #ffe598;
-  width: 66%;
+  position: relative;
+  padding: 12px 130px;
+  background: #333;
+  border-radius: 2px;
+  width: 100%;
 }
 .container .lang .ns {
-  padding: 0.1px 100px;
-  background: #ffe598;
-  border-radius: 5px;
-  width: 63%;
+  position: relative;
+  padding: 12px 130px;
+  background: #333;
+  border-radius: 2px;
+  width: 100%;
 }
 .lang .bostrap {
-  padding: 0.1px 120px;
-  background: #ffe598;
-  border-radius: 5px;
-  width: 75%;
+  position: relative;
+  padding: 12px 130px;
+  background: #333;
+  border-radius: 2px;
+  width: 100%;
 }
 .lang .figma {
-  padding: 0.1px 70px;
-  background: #ffe598;
-  border-radius: 5px;
-  width: 47%;
+  position: relative;
+  padding: 12px 130px;
+  background: #333;
+  border-radius: 2px;
+  width: 100%;
 }
 .lang .c-plus {
-  padding: 0.1px 90px;
-  background: #ffe598;
-  border-radius: 5px;
-  width: 56%;
+  position: relative;
+  padding: 12px 130px;
+  background: #333;
+  border-radius: 2px;
+  width: 100%;
 }
 .lang .photoshop {
-  padding: 0.1px 80px;
-  background: #ffe598;
-  border-radius: 5px;
-  width: 50%;
+  position: relative;
+  padding: 12px 130px;
+  background: #333;
+  border-radius: 2px;
+  width: 100%;
 }
 .lang .java {
-  padding: 0.1px 90px;
-  background: #ffe598;
+  position: relative;
+  padding: 12px 130px;
+  background: #333;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.j {
+  width: 83%;
   border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffe598;
+  border-radius: 1px;
+}
+.h {
+  position: absolute;
+  border-radius: 1px;
+  width: 93%;
+  top: 0%;
+  left: 0;
+  background: #ffe598;
+}
+.c {
+  width: 90%;
+  border-radius: 5px;
+  border-radius: 1px;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  background: #ffe598;
+}
+.b {
+  width: 86%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffe598;
+  border-radius: 1px;
+}
+.n {
+  width: 79%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  border-radius: 1px;
+
+  left: 0;
+  background: #ffe598;
+}
+
+.ja {
+  width: 69%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffe598;
+  border-radius: 1px;
+}
+
+.p {
+  width: 79%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  border-radius: 1px;
+
+  left: 0;
+  background: #ffe598;
+}
+
+.f {
   width: 60%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  border-radius: 1px;
+  left: 0;
+  background: #ffe598;
 }
 
 p {
@@ -99,6 +186,9 @@ p {
 h4 {
   font-size: 1.5rem;
   margin-bottom: 6px;
+}
+p {
+  color: #ffe598;
 }
 
 @media (max-width: 700px) {
