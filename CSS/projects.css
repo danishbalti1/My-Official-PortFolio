@@ -87,6 +87,9 @@ hr {
     row-gap: 8rem;
     margin-bottom: 1rem;
   }
+  .project img {
+    border-right: 144.2px solid whitesmoke;
+  }
   .details {
     width: 150%;
   }
