@@ -74,9 +74,14 @@ ion-icon {
     grid-template-columns: 1fr;
     margin-left: 2rem;
   }
+  section h2 {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+  }
   hr {
-    margin-left: 14rem;
+    margin: auto;
     width: 7%;
+    margin-bottom: 3rem;
   }
   .services {
     width: 90%;
