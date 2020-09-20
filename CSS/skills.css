@@ -194,8 +194,10 @@ p {
 @media (max-width: 700px) {
   .container {
     grid-template-columns: 1fr;
-    margin-left: 15rem;
     width: 80%;
+
+    justify-content: center;
+    margin-right: 1rem;
     margin-bottom: 4rem;
   }
 }
