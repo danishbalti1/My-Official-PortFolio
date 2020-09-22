@@ -195,10 +195,12 @@ p {
   .container {
     grid-template-columns: 1fr;
     width: 80%;
-
     justify-content: center;
     margin-right: 1rem;
     margin-bottom: 4rem;
+  }
+  .bottom {
+    font-size: 0.9rem;
   }
 }
 .container {

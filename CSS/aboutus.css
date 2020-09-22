@@ -71,13 +71,11 @@ section h3 {
 
   .about-info h2 {
     font-size: 1.3rem;
-    margin-left: 1.3rem;
   }
 }
 @media (max-width: 500px) {
   .container .about-info p {
     width: 100%;
-    margin-left: 1rem;
   }
 }
 
