@@ -73,11 +73,11 @@ ion-icon {
 @media (max-width: 700px) {
   .container {
     grid-template-columns: 1fr;
-    margin-left: 2rem;
   }
   section h2 {
     margin-top: 2rem;
     font-size: 1.7rem;
+    text-align: center;
   }
   hr {
     margin: auto;
@@ -86,15 +86,10 @@ ion-icon {
   }
   .services {
     width: 94%;
-    margin-right: 10rem;
     border-radius: 12px;
   }
   .services p {
-    text-align: start;
-  }
-  section {
-    margin-right: 0.7rem;
-    padding-left: 0.1rem;
+    text-align: justify;
   }
 }
 

@@ -11,7 +11,7 @@ body {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url("../Images/background-blank-business-composition-583848.jpg");
+    url("../Images/tech2.jpg");
   background-size: cover;
 }
 a {
@@ -27,16 +27,18 @@ ul {
   position: absolute;
   color: #f1f1f1;
   top: 15px;
-  z-index: 2;
+  z-index: 4;
   display: none;
   right: 30px;
   cursor: pointer;
 }
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   height: 11vh;
   box-shadow: 0 0.5px 0.5px #efefef;
-
   background: #010101;
   margin: auto;
 }
@@ -160,7 +162,7 @@ section p {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
     background: #010101;
     width: 65%;
     height: 100%;
@@ -253,28 +255,11 @@ img {
   .footer-socials > a img {
     margin-bottom: 20px;
   }
-}
-
-.main-heading {
-  animation: scale-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@keyframes scale-in-top {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    -webkit-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-    opacity: 1;
+  header {
+    position: unset;
   }
 }
+
 .bottom {
   text-align: center;
   color: #efefef;

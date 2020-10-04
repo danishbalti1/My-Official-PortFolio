@@ -25,6 +25,12 @@ data.add(
   "Project_Images/microsoft.png",
   "MircorSoft Clone"
 );
+
+data.add(
+  "https://danishbalti1.github.io/EdgeLedger-/",
+  "Project_Images/edgeledger.png",
+  "EdgeLedger"
+);
 data.add(
   "https://danishbalti1.github.io/GymSo/",
   "Project_Images/gymso.png",
