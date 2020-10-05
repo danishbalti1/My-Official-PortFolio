@@ -51,16 +51,22 @@
     <section>
       <div class="container">
         <div class="contact-form">
-          <form>
-            <input type="text" placeholder="Full Name" required />
-            <input type="text" placeholder="Your Email" required />
+          <form method="POST" data-netlify="true">
+            <input type="text" name="text" placeholder="Full Name" required />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
             <textarea
               type="text"
               rows="5"
               placeholder="Your Message"
             ></textarea>
+            <input type="submit" class="btn" value="Send" />
           </form>
-          <a href="./Contact.html" class="btn">Send </a>
         </div>
         <div class="contact-info">
           <h3>Dani Balti</h3>
