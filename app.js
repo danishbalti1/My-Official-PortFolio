@@ -18,7 +18,7 @@ data.add(
 data.add(
   "https://danishbalti1.github.io/DeFlex/",
   "Project_Images/netflix.png",
-  "Dani Chef"
+  "Netflix Clone"
 );
 
 data.add(
@@ -34,9 +34,9 @@ data.add(
 );
 
 data.add(
-  "https://danishbalti1.github.io/Responsive-Website/",
+  "https://upbeat-montalcini-73ca69.netlify.app/index.html",
   "Project_Images/feel-the-music.png",
-  "MircorSoft Clone"
+  "Feel The Music"
 );
 data.add(
   "https://danishbalti1.github.io/Responsive-Website/",

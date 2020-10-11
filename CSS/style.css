@@ -20,6 +20,15 @@ a {
   font-size: 1.2rem;
 }
 
+html::-webkit-scrollbar {
+  width: 10px;
+  background: black;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #333;
+}
+
 ul {
   list-style-type: none;
 }
@@ -103,10 +112,8 @@ ul li.active > a {
 }
 
 .main-heading {
-  width: 100%;
   line-height: 1.8;
-  overflow: hidden;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -221,7 +228,7 @@ img {
 }
 .footer-container ul li {
   color: #f1f1f1;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 2px;
   margin: 3px;
   cursor: pointer;
@@ -266,7 +273,13 @@ img {
     position: unset;
   }
 }
-
+.footer-adress p {
+  line-height: 1.7;
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  color: #ccc;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 .bottom {
   text-align: center;
   color: #efefef;

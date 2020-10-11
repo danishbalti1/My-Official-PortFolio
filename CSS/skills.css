@@ -199,6 +199,9 @@ p {
     margin-right: 1rem;
     margin-bottom: 4rem;
   }
+  .container .lang {
+    margin-bottom: 0.5rem;
+  }
   .bottom {
     font-size: 0.9rem;
   }
