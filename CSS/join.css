@@ -1,0 +1,94 @@
+body {
+  background: #2f303a;
+  
+}
+#join-main .container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  padding: 0 5rem;
+}
+#join-main h1 {
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 10px;
+  margin: 15px 0;
+  border-left: none;
+  border-right: none;
+}
+.desig {
+  color: #ffe598;
+}
+#join-main form {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem 4rem;
+  width: 50vw;
+  max-width:50%;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+#join-main .input-group {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.1rem;
+}
+
+.input-group:last-child {
+  margin-bottom: 0;
+}
+#join-main input {
+  outline: none;
+  padding: 13px;
+  background: none;
+  border: 1px solid #2e3852;
+  font-size: 1em;
+  color: white;
+  border-radius: 5px;
+}
+
+.input-group label {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+textarea {
+  outline: none;
+  padding: 13px;
+  background: none;
+  border: 1px solid #2e3852;
+  font-size: 1em;
+  color: white;
+  border-radius: 5px;
+}
+#join-main .btn {
+  background: #1762a7;
+  outline: none;
+  padding: 13px;
+  border: 1px solid #2e3852;
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 0.9rem;
+}
+#join-main textarea,
+#join-main input:focus {
+  border: 1px solid #1762a7;
+}
+#join-main .btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 700px) {
+  
+#join-main h1{
+  font-size:1.9rem
+}
+#join-main form{
+  width: 93vw;
+  max-width: inherit;
+  margin: 2rem auto;
+  margin-right: 4rem;
+}

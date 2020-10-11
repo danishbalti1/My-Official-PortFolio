@@ -16,9 +16,27 @@ data.add(
 );
 
 data.add(
+  "https://danishbalti1.github.io/DeFlex/",
+  "Project_Images/netflix.png",
+  "Dani Chef"
+);
+
+data.add(
   "https://danishbalti1.github.io/Our-Portfolio/",
   "Project_Images/our-portfolio.png",
   "My Team Portfolio"
+);
+
+data.add(
+  "https://flamboyant-panini-649821.netlify.app/",
+  "Project_Images/news.png",
+  "News Grid Article"
+);
+
+data.add(
+  "https://danishbalti1.github.io/Responsive-Website/",
+  "Project_Images/feel-the-music.png",
+  "MircorSoft Clone"
 );
 data.add(
   "https://danishbalti1.github.io/Responsive-Website/",
@@ -30,6 +48,12 @@ data.add(
   "https://danishbalti1.github.io/EdgeLedger-/",
   "Project_Images/edgeledger.png",
   "EdgeLedger"
+);
+
+data.add(
+  "https://danishbalti1.github.io/Hotel/",
+  "Project_Images/hotel.png",
+  "HTB Hotel"
 );
 data.add(
   "https://danishbalti1.github.io/GymSo/",
@@ -60,6 +84,12 @@ data.add(
   "https://danishbalti1.github.io/CSS-Grid-Test/",
   "Project_Images/grid.png",
   "NianZo"
+);
+
+data.add(
+  "https://danishbalti1.github.io/Dice-Game/",
+  "Project_Images/dice-game.png",
+  "Dice Game"
 );
 data.add(
   "https://danishbalti1.github.io/UniPorject/",
